@@ -141,7 +141,7 @@ if (-not $ModulesAreInstalled) {
 
 
 if ($TenantObject.realm.Length -ne 36) {
-    $TenantObject = Get-TenantIdFromInputBox -Label1Value "Enter your Salt email address"
+    $TenantObject = Get-TenantIdFromInputBox -Label1Value "Enter your Microsoft 365 email address"
 }
 if ($TenantObject) {
 
